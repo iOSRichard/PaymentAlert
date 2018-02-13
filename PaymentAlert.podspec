@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "PaymentAlert"
   s.version      = "1.0.0"
-  s.summary      = "A short description of PaymentAlert."
+  s.summary      = "这是我第一个开源库，主要就是为了测试.里面就是封装了一个商品交易付款时的一个展示界面。"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  这是我第一个开源库，主要就是为了测试
+  这是我第一个开源库，主要就是为了测试.里面就是封装了一个商品交易付款时的一个展示界面。这个库以后要继续修改和测试用的。
                    DESC
 
   s.homepage     = "https://github.com/iOSRichard/PaymentAlert"
