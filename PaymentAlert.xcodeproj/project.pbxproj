@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7914870D202D851E00A3E80D /* GFJCPaymentAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7914870C202D851E00A3E80D /* GFJCPaymentAlertView.m */; };
+		79148710202D929F00A3E80D /* GFJCPaymentMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7914870F202D929F00A3E80D /* GFJCPaymentMainView.m */; };
+		79CCEF48202C3EC30049635D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCEF47202C3EC30049635D /* AppDelegate.m */; };
+		79CCEF4B202C3EC30049635D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCEF4A202C3EC30049635D /* ViewController.m */; };
+		79CCEF4E202C3EC30049635D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79CCEF4C202C3EC30049635D /* Main.storyboard */; };
+		79CCEF50202C3EC30049635D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CCEF4F202C3EC30049635D /* Assets.xcassets */; };
+		79CCEF53202C3EC30049635D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79CCEF51202C3EC30049635D /* LaunchScreen.storyboard */; };
+		79CCEF56202C3EC30049635D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCEF55202C3EC30049635D /* main.m */; };
+		79CCEF60202C3EC30049635D /* PaymentAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCEF5F202C3EC30049635D /* PaymentAlertTests.m */; };
+		79CCEF6B202C3EC30049635D /* PaymentAlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCEF6A202C3EC30049635D /* PaymentAlertUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79CCEF5C202C3EC30049635D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79CCEF3B202C3EC30049635D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79CCEF42202C3EC30049635D;
+			remoteInfo = PaymentAlert;
+		};
+		79CCEF67202C3EC30049635D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79CCEF3B202C3EC30049635D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79CCEF42202C3EC30049635D;
+			remoteInfo = PaymentAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7914870B202D851E00A3E80D /* GFJCPaymentAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFJCPaymentAlertView.h; sourceTree = "<group>"; };
+		7914870C202D851E00A3E80D /* GFJCPaymentAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFJCPaymentAlertView.m; sourceTree = "<group>"; };
+		7914870E202D929F00A3E80D /* GFJCPaymentMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFJCPaymentMainView.h; sourceTree = "<group>"; };
+		7914870F202D929F00A3E80D /* GFJCPaymentMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFJCPaymentMainView.m; sourceTree = "<group>"; };
+		79CCEF43202C3EC30049635D /* PaymentAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CCEF46202C3EC30049635D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79CCEF47202C3EC30049635D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79CCEF49202C3EC30049635D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79CCEF4A202C3EC30049635D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79CCEF4D202C3EC30049635D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79CCEF4F202C3EC30049635D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79CCEF52202C3EC30049635D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79CCEF54202C3EC30049635D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CCEF55202C3EC30049635D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79CCEF5B202C3EC30049635D /* PaymentAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CCEF5F202C3EC30049635D /* PaymentAlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentAlertTests.m; sourceTree = "<group>"; };
+		79CCEF61202C3EC30049635D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CCEF66202C3EC30049635D /* PaymentAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CCEF6A202C3EC30049635D /* PaymentAlertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentAlertUITests.m; sourceTree = "<group>"; };
+		79CCEF6C202C3EC30049635D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79CCEF40202C3EC30049635D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CCEF58202C3EC30049635D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CCEF63202C3EC30049635D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79CCEF3A202C3EC30049635D = {
+			isa = PBXGroup;
+			children = (
+				79CCEF45202C3EC30049635D /* PaymentAlert */,
+				79CCEF5E202C3EC30049635D /* PaymentAlertTests */,
+				79CCEF69202C3EC30049635D /* PaymentAlertUITests */,
+				79CCEF44202C3EC30049635D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79CCEF44202C3EC30049635D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79CCEF43202C3EC30049635D /* PaymentAlert.app */,
+				79CCEF5B202C3EC30049635D /* PaymentAlertTests.xctest */,
+				79CCEF66202C3EC30049635D /* PaymentAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79CCEF45202C3EC30049635D /* PaymentAlert */ = {
+			isa = PBXGroup;
+			children = (
+				79CCEF46202C3EC30049635D /* AppDelegate.h */,
+				79CCEF47202C3EC30049635D /* AppDelegate.m */,
+				79CCEF49202C3EC30049635D /* ViewController.h */,
+				79CCEF4A202C3EC30049635D /* ViewController.m */,
+				7914870B202D851E00A3E80D /* GFJCPaymentAlertView.h */,
+				7914870C202D851E00A3E80D /* GFJCPaymentAlertView.m */,
+				7914870E202D929F00A3E80D /* GFJCPaymentMainView.h */,
+				7914870F202D929F00A3E80D /* GFJCPaymentMainView.m */,
+				79CCEF4C202C3EC30049635D /* Main.storyboard */,
+				79CCEF4F202C3EC30049635D /* Assets.xcassets */,
+				79CCEF51202C3EC30049635D /* LaunchScreen.storyboard */,
+				79CCEF54202C3EC30049635D /* Info.plist */,
+				79CCEF55202C3EC30049635D /* main.m */,
+			);
+			path = PaymentAlert;
+			sourceTree = "<group>";
+		};
+		79CCEF5E202C3EC30049635D /* PaymentAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				79CCEF5F202C3EC30049635D /* PaymentAlertTests.m */,
+				79CCEF61202C3EC30049635D /* Info.plist */,
+			);
+			path = PaymentAlertTests;
+			sourceTree = "<group>";
+		};
+		79CCEF69202C3EC30049635D /* PaymentAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79CCEF6A202C3EC30049635D /* PaymentAlertUITests.m */,
+				79CCEF6C202C3EC30049635D /* Info.plist */,
+			);
+			path = PaymentAlertUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79CCEF42202C3EC30049635D /* PaymentAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79CCEF6F202C3EC30049635D /* Build configuration list for PBXNativeTarget "PaymentAlert" */;
+			buildPhases = (
+				79CCEF3F202C3EC30049635D /* Sources */,
+				79CCEF40202C3EC30049635D /* Frameworks */,
+				79CCEF41202C3EC30049635D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaymentAlert;
+			productName = PaymentAlert;
+			productReference = 79CCEF43202C3EC30049635D /* PaymentAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79CCEF5A202C3EC30049635D /* PaymentAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79CCEF72202C3EC30049635D /* Build configuration list for PBXNativeTarget "PaymentAlertTests" */;
+			buildPhases = (
+				79CCEF57202C3EC30049635D /* Sources */,
+				79CCEF58202C3EC30049635D /* Frameworks */,
+				79CCEF59202C3EC30049635D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79CCEF5D202C3EC30049635D /* PBXTargetDependency */,
+			);
+			name = PaymentAlertTests;
+			productName = PaymentAlertTests;
+			productReference = 79CCEF5B202C3EC30049635D /* PaymentAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79CCEF65202C3EC30049635D /* PaymentAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79CCEF75202C3EC30049635D /* Build configuration list for PBXNativeTarget "PaymentAlertUITests" */;
+			buildPhases = (
+				79CCEF62202C3EC30049635D /* Sources */,
+				79CCEF63202C3EC30049635D /* Frameworks */,
+				79CCEF64202C3EC30049635D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79CCEF68202C3EC30049635D /* PBXTargetDependency */,
+			);
+			name = PaymentAlertUITests;
+			productName = PaymentAlertUITests;
+			productReference = 79CCEF66202C3EC30049635D /* PaymentAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79CCEF3B202C3EC30049635D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Richard;
+				TargetAttributes = {
+					79CCEF42202C3EC30049635D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					79CCEF5A202C3EC30049635D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 79CCEF42202C3EC30049635D;
+					};
+					79CCEF65202C3EC30049635D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 79CCEF42202C3EC30049635D;
+					};
+				};
+			};
+			buildConfigurationList = 79CCEF3E202C3EC30049635D /* Build configuration list for PBXProject "PaymentAlert" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79CCEF3A202C3EC30049635D;
+			productRefGroup = 79CCEF44202C3EC30049635D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79CCEF42202C3EC30049635D /* PaymentAlert */,
+				79CCEF5A202C3EC30049635D /* PaymentAlertTests */,
+				79CCEF65202C3EC30049635D /* PaymentAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79CCEF41202C3EC30049635D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CCEF53202C3EC30049635D /* LaunchScreen.storyboard in Resources */,
+				79CCEF50202C3EC30049635D /* Assets.xcassets in Resources */,
+				79CCEF4E202C3EC30049635D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CCEF59202C3EC30049635D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CCEF64202C3EC30049635D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79CCEF3F202C3EC30049635D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7914870D202D851E00A3E80D /* GFJCPaymentAlertView.m in Sources */,
+				79CCEF4B202C3EC30049635D /* ViewController.m in Sources */,
+				79CCEF56202C3EC30049635D /* main.m in Sources */,
+				79148710202D929F00A3E80D /* GFJCPaymentMainView.m in Sources */,
+				79CCEF48202C3EC30049635D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CCEF57202C3EC30049635D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CCEF60202C3EC30049635D /* PaymentAlertTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CCEF62202C3EC30049635D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CCEF6B202C3EC30049635D /* PaymentAlertUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79CCEF5D202C3EC30049635D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79CCEF42202C3EC30049635D /* PaymentAlert */;
+			targetProxy = 79CCEF5C202C3EC30049635D /* PBXContainerItemProxy */;
+		};
+		79CCEF68202C3EC30049635D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79CCEF42202C3EC30049635D /* PaymentAlert */;
+			targetProxy = 79CCEF67202C3EC30049635D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79CCEF4C202C3EC30049635D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79CCEF4D202C3EC30049635D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79CCEF51202C3EC30049635D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79CCEF52202C3EC30049635D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79CCEF6D202C3EC30049635D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79CCEF6E202C3EC30049635D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79CCEF70202C3EC30049635D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaymentAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richard.com.PaymentAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79CCEF71202C3EC30049635D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaymentAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richard.com.PaymentAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79CCEF73202C3EC30049635D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaymentAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richard.com.PaymentAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaymentAlert.app/PaymentAlert";
+			};
+			name = Debug;
+		};
+		79CCEF74202C3EC30049635D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaymentAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richard.com.PaymentAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaymentAlert.app/PaymentAlert";
+			};
+			name = Release;
+		};
+		79CCEF76202C3EC30049635D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaymentAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richard.com.PaymentAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaymentAlert;
+			};
+			name = Debug;
+		};
+		79CCEF77202C3EC30049635D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaymentAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richard.com.PaymentAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaymentAlert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79CCEF3E202C3EC30049635D /* Build configuration list for PBXProject "PaymentAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CCEF6D202C3EC30049635D /* Debug */,
+				79CCEF6E202C3EC30049635D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79CCEF6F202C3EC30049635D /* Build configuration list for PBXNativeTarget "PaymentAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CCEF70202C3EC30049635D /* Debug */,
+				79CCEF71202C3EC30049635D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79CCEF72202C3EC30049635D /* Build configuration list for PBXNativeTarget "PaymentAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CCEF73202C3EC30049635D /* Debug */,
+				79CCEF74202C3EC30049635D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79CCEF75202C3EC30049635D /* Build configuration list for PBXNativeTarget "PaymentAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CCEF76202C3EC30049635D /* Debug */,
+				79CCEF77202C3EC30049635D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79CCEF3B202C3EC30049635D /* Project object */;
+}
