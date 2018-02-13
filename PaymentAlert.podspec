@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   这是我第一个开源库，主要就是为了测试
                    DESC
 
-  s.homepage     = "http://EXAMPLE/PaymentAlert"
+  s.homepage     = "https://github.com/iOSRichard/PaymentAlert"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/PaymentAlert.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/iOSRichard/PaymentAlert", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "PaymentAlert", "PaymentAlert/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.exclude_files = "PaymentAlert/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -108,7 +108,7 @@ Pod::Spec.new do |s|
   s.resource  = "PaymentAlert/**/*.{png,xib,bundle,xcassets}"
   # s.resources = "Resources/*.png"
 
-  s.preserve_paths = "PaymentAlert/**/*.{framework,a}"
+  # s.preserve_paths = "PaymentAlert/**/*.{framework,a}"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "UIKit"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
