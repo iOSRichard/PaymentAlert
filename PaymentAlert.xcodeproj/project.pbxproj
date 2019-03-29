@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7914870D202D851E00A3E80D /* GFJCPaymentAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7914870C202D851E00A3E80D /* GFJCPaymentAlertView.m */; };
 		79148710202D929F00A3E80D /* GFJCPaymentMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7914870F202D929F00A3E80D /* GFJCPaymentMainView.m */; };
+		793DD6C9224E69FA006B06C6 /* CGBPushMessageAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 793DD6C7224E69FA006B06C6 /* CGBPushMessageAlert.m */; };
 		79CCEF48202C3EC30049635D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCEF47202C3EC30049635D /* AppDelegate.m */; };
 		79CCEF4B202C3EC30049635D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCEF4A202C3EC30049635D /* ViewController.m */; };
 		79CCEF4E202C3EC30049635D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79CCEF4C202C3EC30049635D /* Main.storyboard */; };
@@ -41,6 +42,8 @@
 		7914870C202D851E00A3E80D /* GFJCPaymentAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFJCPaymentAlertView.m; sourceTree = "<group>"; };
 		7914870E202D929F00A3E80D /* GFJCPaymentMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFJCPaymentMainView.h; sourceTree = "<group>"; };
 		7914870F202D929F00A3E80D /* GFJCPaymentMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFJCPaymentMainView.m; sourceTree = "<group>"; };
+		793DD6C7224E69FA006B06C6 /* CGBPushMessageAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBPushMessageAlert.m; sourceTree = "<group>"; };
+		793DD6C8224E69FA006B06C6 /* CGBPushMessageAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBPushMessageAlert.h; sourceTree = "<group>"; };
 		79CCEF43202C3EC30049635D /* PaymentAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79CCEF46202C3EC30049635D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		79CCEF47202C3EC30049635D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 				79CCEF47202C3EC30049635D /* AppDelegate.m */,
 				79CCEF49202C3EC30049635D /* ViewController.h */,
 				79CCEF4A202C3EC30049635D /* ViewController.m */,
+				793DD6C8224E69FA006B06C6 /* CGBPushMessageAlert.h */,
+				793DD6C7224E69FA006B06C6 /* CGBPushMessageAlert.m */,
 				7914870B202D851E00A3E80D /* GFJCPaymentAlertView.h */,
 				7914870C202D851E00A3E80D /* GFJCPaymentAlertView.m */,
 				7914870E202D929F00A3E80D /* GFJCPaymentMainView.h */,
@@ -276,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7914870D202D851E00A3E80D /* GFJCPaymentAlertView.m in Sources */,
+				793DD6C9224E69FA006B06C6 /* CGBPushMessageAlert.m in Sources */,
 				79CCEF4B202C3EC30049635D /* ViewController.m in Sources */,
 				79CCEF56202C3EC30049635D /* main.m in Sources */,
 				79148710202D929F00A3E80D /* GFJCPaymentMainView.m in Sources */,
